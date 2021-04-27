@@ -1,0 +1,27 @@
+
+.container{width:100%;}
+#page-wrapper .form-group input[type=checkbox], 
+#page-wrapper .form-group input[type=radio]{
+    height: 20px;
+    display: inline-block;	
+    width: auto;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.required .product-status,
+.brand_creation .brand-status{
+	margin-left: 32px;
+    display: inline-block;
+}
+#page-wrapper #viewInventory{display: block;}
+span.plus {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: #eae5e5;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+@media print{
+	#search_column{display: none;}
+}
